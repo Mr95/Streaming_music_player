@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>admin Stream server</title>
+</head>
+
+ <body>
+
+    <h1 style="text-align:center">Bonjour Admin</h1>
+
+<div style="text-align:center">
+
+    <form action="/Ajouter" method="POST" enctype="multipart/form-data">
+        
+        <label for="chanteur">Chanteur : </label><br>
+        <input type="text" required id="chanteur" name="chanteur"><br><br>
+        
+        <label for="Titre">Titre : </label><br>
+        <input type="text" required id="Titre" name="titre"><br><br>
+        
+        <label for="Album">Album : </label><br>
+        <input type="text" required id="Album" name="album"><br><br>
+
+        <label for="Audio">Audio/Video : </label><br>
+        <input type="file" required id="Audio" name="audio" accept="audio/*|video/*"><br><br>
+        
+        <input type="submit" value="Submit">
+      </form>
+
+</div>
+
+
+
+ </body>
+
+
+</html>
